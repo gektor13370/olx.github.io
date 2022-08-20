@@ -10,6 +10,4 @@ function generateUuid() {
     return a;
 }
 
-return (
-	<text>JSON.stringify(generateUuid())</text>
-)
+document.write(generateUuid())
